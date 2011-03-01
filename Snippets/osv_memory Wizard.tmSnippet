@@ -4,15 +4,17 @@
 <dict>
 	<key>content</key>
 	<string>class ${1:wizard_name}(osv.osv_memory):
-    _name='config.compute.remaining'
+    _name = '${2:wizard.name}'
+    _rec_name = 'record_name'
+    _
     _columns = {
-        '${2:field_name}' : fields.float('${3:Field Name}', digits=(16,2),),
+        '${3:field_name}' : fields.float('${4:Field Name}', digits=(16,2),),
             }
     
-    def ${4:task_name}(self, cr, uid, ids, context=None):
+    def ${5:task_name}(self, cr, uid, ids, context=None):
         #Execute task
         return {
-                'type': '${5:ir.actions.act_window_close}',
+                'type': '${6:ir.actions.act_window_close}',
         }
 ${1:wizard_name}()</string>
 	<key>name</key>
