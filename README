@@ -21,3 +21,5 @@ OpenerpPy has been made to make your life simpler when developing osv models, wi
 
 INSTALLATION
 Just copy this directory into your ~/Library/Application\ Support/TextMate/Bundles/ directory, and reload bundles. That's it!
+
+You'll see a new bundle named Python Openerp among others!
