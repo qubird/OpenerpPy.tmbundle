@@ -5,16 +5,16 @@
 	<key>content</key>
 	<string>class ${1:wizard_name}(osv.osv_memory):
     _name = '${2:wizard.name}'
-    _rec_name = 'record_name'
-    _
+    _rec_name = '${3:model_name'}
+    
     _columns = {
-        '${3:field_name}' : fields.float('${4:Field Name}', digits=(16,2),),
+        '${4:field_name}' : fields.float('${5:Field Name}', digits=(16,2),),
             }
     
-    def ${5:task_name}(self, cr, uid, ids, context=None):
+    def ${6:task_name}(self, cr, uid, ids, context=None):
         #Execute task
         return {
-                'type': '${6:ir.actions.act_window_close}',
+                'type': '${7:ir.actions.act_window_close}',
         }
 ${1:wizard_name}()</string>
 	<key>name</key>
@@ -22,7 +22,7 @@ ${1:wizard_name}()</string>
 	<key>scope</key>
 	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
-	<string>wiz_mem</string>
+	<string>osv_wiz</string>
 	<key>uuid</key>
 	<string>9C941A55-65D7-47ED-AC92-58C62AFFE1FE</string>
 </dict>

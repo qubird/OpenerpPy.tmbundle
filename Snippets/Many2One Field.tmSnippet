@@ -7,17 +7,7 @@
 	<key>name</key>
 	<string>Many2One Field</string>
 	<key>scope</key>
-	<string>source.python.openerp
-    _columns = {
-        '${2:field_name}' : fields.float('${3:Field Name}', digits=(16,2),),
-            }
-    
-    def ${4:task_name}(self, cr, uid, ids, context=None):
-        #Execute task
-        return {
-                'type': '${5:ir.actions.act_window_close}',
-        }
-${1:wizard_name}()</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>m2o</string>
 	<key>uuid</key>
