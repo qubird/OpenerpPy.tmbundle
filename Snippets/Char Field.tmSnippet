@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:name}': fields.char('${2:Label}', size=${3:64}, required=${4:False}, readonly=${4:False}),</string>
+	<string>'${1:name}': fields.char('${2:Label}', size=${3:64}, required=${4:False}, readonly=${5:False}),</string>
 	<key>name</key>
 	<string>Char Field</string>
 	<key>scope</key>
