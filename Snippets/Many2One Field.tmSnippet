@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:other_model}_id':fields.many2one('${2:module.}${1:other_model}', '${3:Label}', required=${4:False}),</string>
+	<string>'${1:other_model}_id': fields.many2one('${2:module.}${1:other_model}', '${3:Label}', required=${4:False}),</string>
 	<key>name</key>
 	<string>Many2One Field</string>
 	<key>scope</key>

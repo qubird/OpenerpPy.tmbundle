@@ -7,9 +7,9 @@
 from osv import fields
 
 class ${1:class_name}(osv.osv):
- '''
- Model Description
- '''
+    '''
+        Model Description
+    '''
     _name = '${1:class_name}'
     _description = '${2:openerpmodel}'
     
