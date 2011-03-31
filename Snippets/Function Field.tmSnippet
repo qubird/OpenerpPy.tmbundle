@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:data}': fields.function(${2:_function_call}, method=True, type='${3:float}' string='${4:Label}', store=${5:True}),</string>
+	<string>'${1:data}': fields.function(${2:_function_call}, 
+						 method=True, 
+						 type='${3:float}', 
+						 string='${4:Label}', 
+						 store=${5:True}),</string>
 	<key>name</key>
 	<string>Function Field</string>
 	<key>scope</key>
