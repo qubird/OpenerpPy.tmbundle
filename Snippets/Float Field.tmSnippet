@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>'${1:number}': fields.float('${2:Label}', digits=(${3:16}, int(${4:config['price_accuracy']}))),</string>
+	<string>'${1:number}': fields.float('${2:Label}', digits=(${3:16}, ${4:2})),</string>
 	<key>name</key>
 	<string>Float Field</string>
 	<key>scope</key>

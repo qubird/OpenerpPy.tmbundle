@@ -14,7 +14,7 @@ class ${1:class_name}(osv.osv):
     _description = '${2:openerpmodel}'
     
     _columns = {
-        '${3:name}':fields.char('${4:data}', size={64}, required={False}, readonly={False}),
+        '${3:name}':fields.char('${4:data}', size=${5:64}, required=${6:False}, readonly=${7:False}),
     }
 
 ${1:class_name}()</string>
